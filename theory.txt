@@ -1,0 +1,21 @@
+17. Selecting an Element in CSS 39
+<link href="css/style.css" rel="stylesheet"/>
+==================================================
+<div id="wrapper" >
+        <p>This is a simple paragraph</p>
+        <p>This is a simple paragraph</p>
+        <div>
+            <p>It is not a fun</p> 
+        </div>
+        <p>This is a simple paragraph</p>
+    </div>
+    <p>This is a simple paragraph</p>
+=============================
+
+ #wrapper  p{
+    color: blue;
+ }
+
+ /* #wrapper > p{
+    color: blue;
+ } */
